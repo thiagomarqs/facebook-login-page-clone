@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#landing-page-container, #other-info-container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+#welcome-message-container {
+  width: 500px;
+  margin-bottom: 200px;
+}
+
+#welcome-message-logo {
+  margin-left: -30px;
+  max-width: 300px;
+}
+
+#welcome-message-text {
+  font-size: 28px;
+}
+
+#landing-page-container {
+  display: flex;
+  position:relative;
+  width: 100%;
+  height: 450px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;  
+}
+
+#login-form-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-form {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(209, 209, 209);
+  padding: 15px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+}
+
+#login-form input {
+  width: 100%;
+  line-height: 3.5;
+  border: 0px;
+  border-radius: 5px;
+  padding: 0px 15px;
+  font-size: 12pt;
+  margin: 5px 0px;
+}
+
+#login-form input[type=text], #login-form input[type=password]{
+  border: 1px solid lightgrey;
+}
+
+#login-form input[type=button] {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+#login-form-new-account{
+  margin: 15px auto;
+  width: 200px;
+}
+
+#login-form-new-account-btn {
+  background-color: rgb(31, 192, 31);
+}
+
+#login-form-login-btn {
+  background-color: rgb(0, 132, 255);
+}
+
+#login-form-forgot-password {
+  margin: 15px auto;
+  text-align: center;
+}
+
+#login-form-forgot-password-link {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#login-form-create-page-link {
+  margin: 15px auto;
+  text-align: center;
+}
+
+#login-form-create-page-link p{
+  font-size: 14px;
+}
+
+#landing-page-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  height: 700px;
+}
+
+#other-info-background {
+ 
+}
+
+#other-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+#other-info-container > section {
+  margin: 15px 0px;
+  font-size: 12px;
+}
+
+#other-info-languages-options-list li, 
+#other-info-more ul li,
+#other-info-copyright {
+  display: inline-block;
+  margin-right: 15px;
+  color: grey;
+  line-height: 1.5;
+}
